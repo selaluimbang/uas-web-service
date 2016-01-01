@@ -1,6 +1,6 @@
 <?php
 	//--- Categories
-
+	// Ini adalah tempat untuk menyimpan semua link API untuk Catgeories
 	$app->post('/categories/tambah_data', 'auth', function() use ($app) {
 		try{
 			$db = getConnection();	
