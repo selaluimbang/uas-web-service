@@ -4,8 +4,9 @@
 	\Slim\Slim::registerAutoloader();
 
 	$app = new \Slim\Slim();
-	require 'Apis/api.php';
-
+	require 'Apis/api_laptop.php';
+	require 'Apis/api_categories.php';
+	require 'Apis/api_parts.php';
 	
 	$app->run();
 
